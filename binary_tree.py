@@ -7,6 +7,14 @@ class Node:
     def __str__(self):
         return str(self.value)
 
+#        5        #
+#       /  \      #
+#     1      4    #
+#    / \    / \   #
+#   3  8   9   2  #
+#  / \            #
+# 7  6            #
+
 tree = Node(5)
 tree.left = Node(1)
 tree.right = Node(4)
