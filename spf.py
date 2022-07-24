@@ -68,4 +68,5 @@ links = {
     }
 
 shortest_paths = dijsktra(nodes,links,'mexico')
-print(shortest_paths)
+for i in shortest_paths.items():
+    print(i)
